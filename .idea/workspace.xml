@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd4164cb-a088-4c06-8ab9-19e68a5c5835" name="Changes" comment="jpa 프로젝트 생성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/RoleType.java" afterDir="false" />
+    <list default="true" id="fd4164cb-a088-4c06-8ab9-19e68a5c5835" name="Changes" comment="필드와 컬럼매핑">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,9 @@
       <workItem from="1656336406567" duration="37000" />
       <workItem from="1656935287154" duration="2665000" />
       <workItem from="1656943015366" duration="1855000" />
-      <workItem from="1657021270650" duration="2016000" />
+      <workItem from="1657021270650" duration="3091000" />
+      <workItem from="1657353490792" duration="3178000" />
+      <workItem from="1657366865379" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="jpa 프로젝트 생성">
       <created>1656333911004</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656333937049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="필드와 컬럼매핑">
+      <created>1657023966981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657023966981</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jpa 프로젝트 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="jpa 프로젝트 생성" />
+    <MESSAGE value="필드와 컬럼매핑" />
+    <option name="LAST_COMMIT_MESSAGE" value="필드와 컬럼매핑" />
   </component>
 </project>
