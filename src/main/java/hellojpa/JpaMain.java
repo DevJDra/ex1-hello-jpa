@@ -17,11 +17,19 @@ public class JpaMain {
 
         try {
             Member member = new Member();
-            member.setUsername("C");
+            member.setUsername("member1");
 
             em.persist(member);
+
+            Team team = new Team();
+            team.setName("teamA");
+            team.getMembers().add(member);
+
+            em.persist(team);
+
             tx.commit();
         } catch (Exception e) {
+            e.printStackTrace();
             tx.rollback();
         } finally {
             em.close();
