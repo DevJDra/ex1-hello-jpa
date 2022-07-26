@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd4164cb-a088-4c06-8ab9-19e68a5c5835" name="Changes" comment="필드와 컬럼매핑">
+    <list default="true" id="fd4164cb-a088-4c06-8ab9-19e68a5c5835" name="Changes" comment="2022-07-25 1:n , n:1 , 1:1 commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/MemberProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,7 +39,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="true" />
         <entry key="com.haulmont.jpb.jpaPalette" value="true" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -95,6 +97,17 @@
       <workItem from="1657021270650" duration="3091000" />
       <workItem from="1657353490792" duration="3178000" />
       <workItem from="1657366865379" duration="6000" />
+      <workItem from="1657367553910" duration="320000" />
+      <workItem from="1657368770111" duration="673000" />
+      <workItem from="1657709679191" duration="179000" />
+      <workItem from="1657715145381" duration="2119000" />
+      <workItem from="1657798672076" duration="5344000" />
+      <workItem from="1658135738829" duration="350000" />
+      <workItem from="1658139793883" duration="733000" />
+      <workItem from="1658141510571" duration="766000" />
+      <workItem from="1658318557885" duration="1020000" />
+      <workItem from="1658749492884" duration="2826000" />
+      <workItem from="1658833543055" duration="1180000" />
     </task>
     <task id="LOCAL-00001" summary="jpa 프로젝트 생성">
       <created>1656333911004</created>
@@ -117,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657023966981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2022-07-09 기본키매핑">
+      <created>1657367586265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657367586265</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2022-07-25 1:n , n:1 , 1:1 commit">
+      <created>1658753794539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658753794540</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jpa 프로젝트 생성" />
     <MESSAGE value="필드와 컬럼매핑" />
-    <option name="LAST_COMMIT_MESSAGE" value="필드와 컬럼매핑" />
+    <MESSAGE value="2022-07-09 기본키매핑" />
+    <MESSAGE value="2022-07-25 1:n , n:1 , 1:1 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-07-25 1:n , n:1 , 1:1 commit" />
   </component>
 </project>
