@@ -22,13 +22,6 @@ public class Member extends BaseEntity{
     @JoinColumn(name = "TEAM_ID", insertable = false, updatable = false)
     private Team team;
 
-    @OneToOne
-    @JoinColumn(name = "LOCKER_ID")
-    private Locker locker;
-
-    @OneToMany(mappedBy = "member")
-    private List<MemberProduct> memberProducts = new ArrayList<>();
-
     public Long getId() {
         return id;
     }
@@ -48,11 +41,10 @@ public class Member extends BaseEntity{
         return team;
     }
 
-    public void changeTeam(Team team) {
-        this.team = team;
-        team.getMembers().add(this);
-    }
     public void setTeam(Team team) {
         this.team = team;
     }
+
+
+
 }
