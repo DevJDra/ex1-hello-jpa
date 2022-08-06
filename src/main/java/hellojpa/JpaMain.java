@@ -19,18 +19,20 @@ public class JpaMain {
 
         try {
 
-            Member member1 = new Member();
-            member1.setUsername("member1");
-            em.persist(member1);
+            Child child1 = new Child();
+            Child child2 = new Child();
+
+            Parent parent = new Parent();
+            parent.addChild(child1);
+            parent.addChild(child2);
+
+            em.persist(parent);
 
             em.flush();
             em.clear();
 
-            Member refMember = em.getReference(Member.class, member1.getId());
-            System.out.println("refMember = " + refMember.getClass()); //Proxy
-            refMember.getUsername();
-            System.out.println("isLoaded = " + emf.getPersistenceUnitUtil().isLoaded(refMember));
-            Hibernate.initialize(refMember);//강제초기화
+            Parent findParent = em.find(Parent.class, parent.getId());
+            findParent.getChildList().remove(0);
 
             tx.commit();
         } catch (Exception e) {
@@ -42,9 +44,4 @@ public class JpaMain {
 
         emf.close();
     }
-
-    private static void logic(Member m1, Member m2) {
-        System.out.println("m1 == m2: " + (m1 instanceof Member));
-    }
-
 }
