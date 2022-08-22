@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd4164cb-a088-4c06-8ab9-19e68a5c5835" name="Changes" comment="2022-08-06 영속성전이, 고아객체 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Period.java" afterDir="false" />
+    <list default="true" id="fd4164cb-a088-4c06-8ab9-19e68a5c5835" name="Changes" comment="2022-08-06 임베디드타입, 값타입과 불변객체 commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/AddressEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,7 @@
       <workItem from="1659447752085" duration="3407000" />
       <workItem from="1659766619501" duration="5296000" />
       <workItem from="1660652654720" duration="609000" />
-      <workItem from="1661150929927" duration="4523000" />
+      <workItem from="1661150929927" duration="8163000" />
     </task>
     <task id="LOCAL-00001" summary="jpa 프로젝트 생성">
       <created>1656333911004</created>
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659772729766</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2022-08-06 임베디드타입, 값타입과 불변객체 commit">
+      <created>1661157677925</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661157677925</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +226,7 @@
     <MESSAGE value="2022-07-31 Mapped Superclass - 매핑정보상속 commit" />
     <MESSAGE value="2022-08-02 프록시 commit" />
     <MESSAGE value="2022-08-06 영속성전이, 고아객체 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-08-06 영속성전이, 고아객체 commit" />
+    <MESSAGE value="2022-08-06 임베디드타입, 값타입과 불변객체 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-08-06 임베디드타입, 값타입과 불변객체 commit" />
   </component>
 </project>
